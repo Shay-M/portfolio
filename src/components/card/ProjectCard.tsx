@@ -22,14 +22,14 @@ interface Props {
 const ProjectCard = ({ project }: Props) => {
   return (
     <Card direction={{ sm: 'row' }}>
-      <Image
+      {/* <Image
         objectFit="cover"
         maxW={{ sm: '250px' }}
         // maxH={{ sm: '250px' }}
         minH={{ sm: '250px' }}
         src={import.meta.env.BASE_URL + 'assets/images/' + project.mainImage}
         alt={project.name}
-      />
+      /> */}
 
       <Stack flex="1">
         <CardBody>
