@@ -27,7 +27,7 @@ const ProjectCard = ({ project }: Props) => {
         maxW={{ sm: '250px' }}
         // maxH={{ sm: '250px' }}
         minH={{ sm: '250px' }}
-        src={'portfolio/assets/images/' + project.mainImage}
+        src={import.meta.env.BASE_URL + 'assets/images/' + project.mainImage}
         alt={project.name}
       />
 
