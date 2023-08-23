@@ -16,8 +16,8 @@ import ProjectCard from './card/ProjectCard';
 // }
 
 const ProjectGrid = () => {
-  const { projects, error, isLoading } = useProjects(); // Use useProjects hook
-  const skeleton = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+  const { projects, error } = useProjects(); // Use useProjects hook
+  // const skeleton = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 
   if (error) return <Text>{error}</Text>;
 

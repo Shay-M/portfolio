@@ -1,5 +1,4 @@
-import { Box, Button, List, ListItem } from '@chakra-ui/react';
-import React from 'react';
+import { Box, List, ListItem } from '@chakra-ui/react';
 
 const AsideBar = () => {
   return (

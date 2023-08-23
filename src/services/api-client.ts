@@ -1,5 +1,5 @@
-import axios from 'axios';
+// import axios from 'axios';
 
-export default axios.create({
-  baseURL: 'https://www.freetogame.com/api', // /games
-});
+// export default axios.create({
+//   baseURL: 'https://www.freetogame.com/api', // /games
+// });
